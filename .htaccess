@@ -1,0 +1,4 @@
+php_value date.timezone 'America/Sao_Paulo'
+
+ReWriteEngine On
+RewriteRule ^empresa\/([^/.]+)?$ /empresa.php?empresa=$1 [L]
